@@ -1,5 +1,4 @@
 resource "aws_instance" "name" {
-  ami = "ami-0c50b6f7dc3701ddd"
+  ami = "ami-0261755bbcb8c4a84"
   instance_type = "t2.micro"
-  key_name = "mumbai"
 }
